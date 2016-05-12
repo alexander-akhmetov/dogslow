@@ -3,8 +3,8 @@ import logging
 import threading
 import time
 
-class TimerTask(object):
 
+class TimerTask(object):
     def __init__(self, callable_, *args, **kwargs):
         self._callable = partial(callable_, *args, **kwargs)
         self._finished = False
@@ -19,6 +19,7 @@ class TimerTask(object):
             logging.exception('TimerTask failed')
         finally:
             self._finished = True
+
 
 class Timer(threading.Thread):
     '''An alternative to threading.Timer. Where threading.Timer spawns a
