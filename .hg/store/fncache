@@ -1,0 +1,13 @@
+data/dogslow/__init__.py.i
+data/README.rst.i
+data/.pylintrc.i
+data/django_watchdog/timer.py.i
+data/.hgtags.i
+data/COPYING.txt.i
+data/.hgignore.i
+data/dogslow/timer.py.i
+data/setup.py.i
+data/MANIFEST.in.i
+data/django_watchdog/__init__.py.i
+data/Makefile.i
+data/README.txt.i
