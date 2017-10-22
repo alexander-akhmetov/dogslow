@@ -1,5 +1,6 @@
 =======================================
 Dogslow -- Django Slow Request Watchdog
+(and now with initial Flask support)
 =======================================
 
 
